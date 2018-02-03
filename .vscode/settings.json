@@ -1,0 +1,14 @@
+{
+    "mocha.enabled": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules":true,
+        "**/*.js":false,
+        "package.json":true,
+        "tsconfig.json":true
+    }
+}

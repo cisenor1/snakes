@@ -1,0 +1,32 @@
+100 tiles.
+two players
+dice roller (2 dice, maybe configurable?)
+(ladders)teleport forward (configurable number)
+(snakes)teleport backward (configurable number)
+first player to tile 100 wins. (playerPosition > boardLength - 1)
+
+game board
+100 tiles (configurable).
+tile 1 can have NO teleport.
+tile 100 can have no teleport (configurable?).
+
+
+
+rules
+players roll dice and move forward that many spaces
+if the player lands on the bottom of a ladder, they move to the top of the ladder.
+if the player lands on the top of a snake, they move to the bottom of the snake.
+
+Snake top cannot be on the same tile as a ladder bottom.
+Ladder top CAN be on the same tile as a snake top.
+Snake bottom can be on snake top.
+
+
+
+tiles
++----------+
+| ST## LB##|
+|   O  X   |
+|     1    |
++----------+
+
