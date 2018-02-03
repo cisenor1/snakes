@@ -88,7 +88,7 @@ function main(): void {
     const board = initializeBoard();
     const diceRoller = initializeDiceRoller();
     let state = initializeGameState(board, diceRoller);
-
+    initializeStdIn();
     // Set up keylistener
     process.stdin.on('data', (chunk, key) => {
         state.lastCommandSent = chunk;

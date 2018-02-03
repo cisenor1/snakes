@@ -59,6 +59,7 @@ function main() {
     var board = initializeBoard();
     var diceRoller = initializeDiceRoller();
     var state = initializeGameState(board, diceRoller);
+    initializeStdIn();
     // Set up keylistener
     process.stdin.on('data', function (chunk, key) {
         state.lastCommandSent = chunk;
