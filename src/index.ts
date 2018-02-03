@@ -36,7 +36,7 @@ interface GameState {
 
 function initializeBoard(): GameBoard {
     let boardParams = {
-        tileCount: 6 * 6,
+        tileCount: 8 * 8,
         maxLadderLength: 6,
         maxSnakeLength: 5,
         numberOfLadders: 12,

@@ -12,7 +12,7 @@ var Actions = /** @class */ (function () {
 }());
 function initializeBoard() {
     var boardParams = {
-        tileCount: 6 * 6,
+        tileCount: 8 * 8,
         maxLadderLength: 6,
         maxSnakeLength: 5,
         numberOfLadders: 12,
